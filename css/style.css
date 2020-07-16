@@ -1,14 +1,16 @@
 html {
   font-family: Helvetica, sans-serif;
   font-size: 16px;
-  margin: 0;
-  padding: 0;
   background-color: white;
 }
 
 .container h-100 {
     display: flex;
     justify-content: center;
+}
+
+header ul {
+    padding-left: 0;
 }
 
 nav {
@@ -88,18 +90,6 @@ header .overlay {
     justify-content: center;
 }
 
-.col1{
-    margin-right: 1%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
-
-.col2{
-    margin-left: 1%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
-
 /* For mobile display */
 @media only screen and (max-width: 480px) {
     nav ul li {
@@ -116,13 +106,7 @@ header .overlay {
     header video {
         display: none;
     }
-    .col1.col2 {
-        margin: auto;
-    }
 
-    iframe{
-        width: 330px;
-    }
 }
   
   
