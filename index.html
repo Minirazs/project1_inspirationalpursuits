@@ -21,54 +21,105 @@
             <li><a href="#contactbox">Contact</a></li>
           </ul>
         </nav>
+        
         <img id="logo" src="img/chefngrandson.png" alt="Chef&Grandson_logo"/>
 
         <!-- Youtube Subscribe button -->
-        <script src="https://apis.google.com/js/platform.js"></script>
-        <div class="g-ytsubscribe" data-channelid="UC5gmNs7t3Wmjs9nI8wc54-Q" data-layout="default" data-count="default"></div>
+        <div id='subscribe'>
+          <script src="https://apis.google.com/js/platform.js"></script>
+          <div class="g-ytsubscribe" data-channelid="UC5gmNs7t3Wmjs9nI8wc54-Q" data-layout="default" data-count="default"></div>
+        </div>
       </div>
     </header>
 
     <main class='container'>
       <section id ='ytvideo'>
         <h2 class='title'>Video Recipes</h2>
+        <p>Enjoy watching some of our popular video recipes here. Visit and <span><a href="https://www.youtube.com/c/ChefGrandson">subscribe to our YouTube Channel</a></span> for more! </p>
 
         <div class="row">
           <div class="col-12 col-md-6 embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fTxrAdIyo88"></iframe>   
+              <iframe class="p-2 embed-responsive-item" src="https://www.youtube.com/embed/fTxrAdIyo88"></iframe>   
           </div>
           <div class="col-12 col-md-6 embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UCUTXTerAUM"></iframe>
-          </div>
-          <div class="w-100"></div>
-          <div class="col-12 col-md-6 embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qxCYqB4_lHA"></iframe>
-          </div>
-          <div class="col-12 col-md-6 embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ukLxXey7swM"></iframe>
+              <iframe class="p-2 embed-responsive-item" src="https://www.youtube.com/embed/UCUTXTerAUM"></iframe>
           </div>
           <div class="w-100"></div>
           <div class="col-12 col-md-6 embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nr4_YXTcahk"></iframe>
+            <iframe class="p-2 embed-responsive-item" src="https://www.youtube.com/embed/qxCYqB4_lHA"></iframe>
           </div>
           <div class="col-12 col-md-6 embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZBWUgLGHZxY"></iframe>
+            <iframe class="p-2 embed-responsive-item" src="https://www.youtube.com/embed/ukLxXey7swM"></iframe>
+          </div>
+          <div class="w-100"></div>
+          <div class="col-12 col-md-6 embed-responsive embed-responsive-16by9">
+            <iframe class="p-2 embed-responsive-item" src="https://www.youtube.com/embed/nr4_YXTcahk"></iframe>
+          </div>
+          <div class="col-12 col-md-6 embed-responsive embed-responsive-16by9">
+            <iframe class="p-2 embed-responsive-item" src="https://www.youtube.com/embed/ZBWUgLGHZxY"></iframe>
+          </div>
+          <div class="col-12 col-md-6 embed-responsive embed-responsive-16by9">
+            <iframe class="p-2 embed-responsive-item" src="https://www.youtube.com/embed/GI6Gsa9iZWo"></iframe>
+          </div>
+          <div class="col-12 col-md-6 embed-responsive embed-responsive-16by9">
+            <iframe class="p-2 embed-responsive-item" src="https://www.youtube.com/embed/IOOvUkrRPpk"></iframe>
           </div>
         </div>
       </section>
 
       <section id ='about'>
         <h2 class='title'>About</h2>
-
+        <p>Welcome to the Chef and Grandson website! Grandpa Chef hopes to pass on his culinary skills to his Grandson and inspire those who would like to learn and improve their cooking skills. He is a Hainanese and he enjoys sharing his unique cooking recipes on how to make easy yet delicious food dishes from his myriad experiences.</p>
+        <p>Being a food enthusiast, Grandpa Chef used to be a chef consultant for numerous restaurant chains. With disciples all over the world, he has chosen to retire two years ago to spend time with his beloved grandson. Though he has retired, he is still passionate about cooking and actively experimenting new recipes.</p>
+        <br>
+        <p>欢迎来到Chef＆Grandson网站！公公厨师希望将自己的烹饪手法传授给他的孙子。作为一名海南人，他凭自己的经验，自创美味简单的菜肴给大家分享！</p>
+        <p>公公厨师是一名美食爱好者，也曾经是众多连锁餐厅的厨师顾问。桃李满天下，他两年前选择退休，与他心爱的孙子共度时光。尽管他已经退休，他仍然对烹饪和尝试新食谱充满热情。</p>
+        
+        <div class='socialmedia'>
+          <a href="https://www.facebook.com/chefngrandson"><img class='icon' src='img/fb_icon.png'></a>
+          <a href="https://www.youtube.com/c/ChefGrandson"><img class='icon' src='img/yt_icon.png'></a>
+          <a href="https://www.instagram.com/chefngrandson/"><img class='icon' src='img/ig_icon.png'></a>
+        </div>
       </section>
 
       <section id = 'contactbox'>
+        <h2 class='title'>Contact</h2>
+        <p>If you have any questions, comments, or concerns, send us a note below.  We'd love to hear from you!</p>
+        
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputName4">Name</label>
+              <input type="text" class="form-control" id="inputName4" placeholder="Name" required>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputSurname4">Surname</label>
+              <input type="text" class="form-control" id="inputSurname4" placeholder="Surname">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputHandphone4">Handphone number</label>
+              <input type="number" class="form-control" id="inputHandphone4" placeholder="Handphone number">
+            </div>
+          </div>
 
+          <div class="form-group">
+            <label for="inputMessage4">Message</label>
+            <textarea class="form-control" id="inputMessage4" rows="3" required></textarea>
+          </div>
+
+          <div id='submit'><button class="btn btn-primary" type="submit">Submit</button></div>
+        </form>
+      
       </section>
     </main>
     <footer>
-
-
+      <div id ='copyright'>© CHEF & GRANDSON</div>
     </footer>
 
     <script src="js/bootstrap.min.js"></script>
