@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chef & Grandson</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.ico">
     <link href="css/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
@@ -33,6 +35,7 @@
     </header>
 
     <main class='container'>
+      <!-- Video recipes shown for users to decide to play -->
       <section id ='ytvideo'>
         <h2 class='title'>Video Recipes</h2>
         <p>Enjoy watching some of our popular video recipes here. Visit and <span><a href="https://www.youtube.com/c/ChefGrandson">subscribe to our YouTube Channel</a></span> for more! </p>
@@ -67,7 +70,8 @@
         </div>
       </section>
 
-      <section id ='about'>
+      <section id ='about' class="fade-in-bottom">
+        <!-- About us -->
         <h2 class='title'>About</h2>
         <p>Welcome to the Chef and Grandson website! Grandpa Chef hopes to pass on his culinary skills to his Grandson and inspire those who would like to learn and improve their cooking skills. He is a Hainanese and he enjoys sharing his unique cooking recipes on how to make easy yet delicious food dishes from his myriad experiences.</p>
         <p>Being a food enthusiast, Grandpa Chef used to be a chef consultant for numerous restaurant chains. With disciples all over the world, he has chosen to retire two years ago to spend time with his beloved grandson. Though he has retired, he is still passionate about cooking and actively experimenting new recipes.</p>
@@ -75,6 +79,7 @@
         <p>欢迎来到Chef＆Grandson网站！公公厨师希望将自己的烹饪手法传授给他的孙子。作为一名海南人，他凭自己的经验，自创美味简单的菜肴给大家分享！</p>
         <p>公公厨师是一名美食爱好者，也曾经是众多连锁餐厅的厨师顾问。桃李满天下，他两年前选择退休，与他心爱的孙子共度时光。尽管他已经退休，他仍然对烹饪和尝试新食谱充满热情。</p>
         
+        <!-- social media links -->
         <div class='socialmedia'>
           <a href="https://www.facebook.com/chefngrandson"><img class='icon' src='img/fb_icon.png'></a>
           <a href="https://www.youtube.com/c/ChefGrandson"><img class='icon' src='img/yt_icon.png'></a>
@@ -82,7 +87,8 @@
         </div>
       </section>
 
-      <section id = 'contactbox'>
+      <!-- Contact form -->
+      <section id = 'contactbox' class="fade-in-bottom">
         <h2 class='title'>Contact</h2>
         <p>If you have any questions, comments, or concerns, send us a note below.  We'd love to hear from you!</p>
         
@@ -109,20 +115,40 @@
           </div>
 
           <div class="form-group">
+            <label for="inputSubject4">Subject</label>
+            <input type="text" class="form-control" id="inputSubject4" placeholder="Questions & Comments about Chef & Grandson">
+          </div>
+
+          <div class="form-group">
             <label for="inputMessage4">Message</label>
             <textarea class="form-control" id="inputMessage4" rows="3" required></textarea>
           </div>
 
           <div id='submit'><button class="btn btn-primary" type="submit">Submit</button></div>
         </form>
-      
       </section>
+
+      <!-- Instagram feed -->
+      <section>
+
+
+
+      </section>
+
     </main>
+
+    <!-- Footer -->
     <footer>
       <div id ='copyright'>© CHEF & GRANDSON</div>
     </footer>
 
+    <!-- Scroll up button -->
+    <div class="scroll">
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </div>
+
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
     
   </body>
 </html>
