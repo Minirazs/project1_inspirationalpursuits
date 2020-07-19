@@ -40,13 +40,14 @@ li a {
     margin-top: 3%;
 }
 
+/* youtube subscribe button on banner */
 #subscribe {
     text-align: center;
     margin-top: 3%;
     z-index: 3;
 }
 
-/* For the video background */
+/* Banner video*/
 header {
     position: relative;
     background-color:white;
@@ -122,6 +123,7 @@ span a{
     background-color: white;
 }
 
+/* social media icons */
 .socialmedia {
     display: flex;
     justify-content: center;
@@ -181,8 +183,6 @@ footer {
     bottom: 20px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
-    /*border: none; Remove borders */
-    /* outline: none; Remove outline */
     background-color: white; /* Set a background color */
     color: rgba(184, 33, 38, 1); /* Text color */
     border-color: rgba(184, 33, 38, 1);
@@ -227,7 +227,7 @@ footer {
         margin: 0 1rem;
     }
 
-    #insta {
+    #instagram {
         margin: 0 1rem;
     }
 
