@@ -1,5 +1,5 @@
 html {
-  font-family: Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   background-color: white;
 }
@@ -30,6 +30,7 @@ nav ul li {
 li a {
     text-decoration: none;
     color: rgba(184, 33, 38, 1);
+    font-family: 'Pacifico', cursive;
 }
 
 #logo {
@@ -90,15 +91,19 @@ header .overlay {
     padding: 1rem;
     margin-top: 2rem;
     text-align: center;
-    color: rgb(255, 166, 0);
+    color: rgba(255, 166, 0, 1);
+    font-family: 'Pacifico', cursive;
 }
 
-p {
+p { 
+    font-family: 'Roboto', sans-serif;
     font-size: 1.25rem;
     text-align: center;
 }
 
-h4 {
+.chinese {
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -120,7 +125,8 @@ span a{
 .socialmedia {
     display: flex;
     justify-content: center;
-    margin: 3rem auto;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
 }
 
 .icon {
@@ -133,20 +139,26 @@ span a{
     bottom: 2px;
 }
 
+/* Contact form */
+form {
+    font-family: 'Roboto', sans-serif;
+}
+
 #submit {
     text-align: center;
 }
 
 .btn {
-    background-color:rgb(255, 166, 0);
-    border-color: rgb(255, 166, 0);
+    background-color:rgba(255, 166, 0, 1);
+    border-color: rgba(255, 166, 0, 1);
 }
 
 .btn:hover {
-    background-color:rgb(255, 217, 0);
-    border-color: rgb(255, 217, 0);
+    background-color:rgba(0, 86, 179, 1);
+    border-color: rgba(0, 86, 179, 1);
 }
 
+/* Footer */
 footer {
     height: 4rem;
     background-color: rgba(184, 33, 38, 1);
@@ -161,37 +173,6 @@ footer {
     justify-content: center;
     padding: 2rem 0;
 }
-
-/* animation fade-in-bottom */
-.fade-in-bottom {
-	-webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-}
-
-@-webkit-keyframes fade-in-bottom {
-    0% {
-      -webkit-transform: translateY(50px);
-              transform: translateY(50px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
-      opacity: 1;
-    }
-  }
-  @keyframes fade-in-bottom {
-    0% {
-      -webkit-transform: translateY(50px);
-              transform: translateY(50px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
-      opacity: 1;
-    }
-  }
 
 /* scroll up button */
 #myBtn {
@@ -209,17 +190,20 @@ footer {
     padding: 10px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
     font-size: 1rem; /* font size */
+    font-family: 'Roboto', sans-serif;
   }
   
   #myBtn:hover {
-    background-color: rgb(255, 208, 208); /* Add a light pink background on hover */
+    background-color: rgba(0, 86, 179, 1); /* Add a background on hover */
+    color: white; /* Text color */
+    border-color: white;
   }
 
 /* For mobile display */
 @media only screen and (max-width: 480px) {
     nav ul li {
         font-size: 1rem;
-        margin: auto 0.5rem;
+        margin: auto 1rem;
     }    
     
     #logo {
@@ -227,7 +211,7 @@ footer {
     }
     header {
         background: url('/img/crackered_crumbled_seabass.jpg') white no-repeat center center scroll;
-        min-height: 20rem;
+        min-height: 16rem;
     }
     header video {
         display: none;
@@ -237,6 +221,31 @@ footer {
         text-align: center;
         margin-top: 5%;
     }
+
+    .icon {
+        width: 50px;
+        margin: 0 1rem;
+    }
+
+    #insta {
+        margin: 0 1rem;
+    }
+
+    .btn {
+        margin-bottom: 1rem;
+    }
+
+    #myBtn {
+        bottom: 20px; /* Place the button at the bottom of the page */
+        right: 40px; /* Place the button 30px from the right */
+        padding: 8px; /* Some padding */
+        font-size: 0.8rem; /* font size */
+      }    
+
 }
-  
+
+/* For tablet display */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+ 
+}
   
