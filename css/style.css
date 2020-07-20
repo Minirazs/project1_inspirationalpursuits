@@ -14,6 +14,7 @@ header ul {
     padding-left: 0;
 }
 
+/* navbar */
 nav {
     background-color: white;
     color: rgba(184, 33, 38, 1);
@@ -88,6 +89,7 @@ header .overlay {
     z-index: 1;
 }
 
+/* Styling done on text and headers */
 .title {
     padding: 1rem;
     margin-top: 2rem;
@@ -108,19 +110,9 @@ p {
     text-align: center;
 }
 
-.row{
-    display: flex;
-    justify-content: center;
-}
-
 span a{
     color: rgba(184, 33, 38, 1);
     font-weight: 500;
-}
-
-#about {
-    width: 100%;
-    background-color: white;
 }
 
 /* social media icons */
@@ -128,7 +120,7 @@ span a{
     display: flex;
     justify-content: center;
     margin-top: 3rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3.5rem;
 }
 
 .icon {

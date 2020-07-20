@@ -8,17 +8,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.ico">
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.min.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <header>
       <div class="overlay"></div>
       <!-- Banner Video -->
       <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source src="img/headervideo.mp4" type="video/mp4">
+        <source src="img/headervideo.mp4" type="video/mp4" title="Cook with us!">
       </video>
       <div class="container h-100">
-        <!-- Navbar -->
+        <!-- Navbar with links to sections within the site -->
         <nav>
           <ul>
             <li><a href="#ytvideo">Recipes</a></li>
@@ -27,9 +27,9 @@
           </ul>
         </nav>
         
-        <img id="logo" src="img/chefngrandson.png" alt="Chef&Grandson_logo"/>
+        <img id="logo" title="Chef&Grandson_logo" src="img/chefngrandson.png" alt="Chef&Grandson_logo"/>
 
-        <!-- Youtube Subscribe button -->
+        <!-- Youtube API - Subscribe button -->
         <div id='subscribe'>
           <div class="g-ytsubscribe" data-channelid="UC5gmNs7t3Wmjs9nI8wc54-Q" data-layout="default" data-count="default"></div>
         </div>
@@ -37,7 +37,7 @@
     </header>
 
     <main class='container'>
-      <!-- Adding Video recipes for users to play and view -->
+      <!-- Embedded YouTube video recipes with player commands for users to play and view -->
       <section id ='ytvideo'>
         <h2 class='title'>Video Recipes</h2>
         <p>Enjoy watching some of our popular video recipes here. Visit and <span><a href="https://www.youtube.com/c/ChefGrandson" target='_blank'>subscribe to our YouTube Channel</a></span> for more! </p>
@@ -81,11 +81,11 @@
         <p class='chinese'>欢迎来到Chef＆Grandson的网站！公公厨师希望将自己的烹饪手法传授给他的孙子。作为一名海南人，他凭自己的经验，自创美味简单的菜肴给大家分享！</p>
         <p class='chinese'>公公厨师是一名美食爱好者，也曾经是众多连锁餐厅的厨师顾问。桃李满天下，他两年前选择退休，与他心爱的孙子共度时光。尽管他已经退休，他仍然对烹饪和尝试新食谱充满热情。</p>
         
-        <!-- social media links -->
+        <!-- Social media links -->
         <div class='socialmedia'>
-          <a href="https://www.facebook.com/chefngrandson" target='_blank'><img class='icon' src='img/fb_icon.png' alt="facebook_link"/></a>
-          <a href="https://www.youtube.com/c/ChefGrandson" target='_blank'><img class='icon' src='img/yt_icon.png' alt="youtube_link"/></a>
-          <a href="https://www.instagram.com/chefngrandson/" target='_blank'><img class='icon' src='img/ig_icon.png' alt="instagram_link"/></a>
+          <a href="https://www.facebook.com/chefngrandson" title="facebook_link" target='_blank'><img class='icon' src='img/fb_icon.png' title="facebook_link" alt="facebook_link"/></a>
+          <a href="https://www.youtube.com/c/ChefGrandson" title="youtube_link" target='_blank'><img class='icon' src='img/yt_icon.png' title="youtube_link" alt="youtube_link"/></a>
+          <a href="https://www.instagram.com/chefngrandson/" title="instagram_link" target='_blank'><img class='icon' src='img/ig_icon.png' title="instagram_link" alt="instagram_link"/></a>
         </div>
       </section>
 
@@ -153,19 +153,13 @@
     <div class="scroll">
       <button onclick="topFunction()" id="myBtn" title="Go to top"> 
         <i class="fas fa-chevron-up scrollup"></i>
-        <!-- <svg width="1.5rem" height="1.5rem" viewBox="0 0 16 16" class="bi bi-arrow-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5z"/>
-          <path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8 3.707 5.354 6.354a.5.5 0 1 1-.708-.708l3-3z"/>
-        </svg> -->
       </button>
     </div>
 
-    <!-- Scripts -->
+    <!-- External Libraries-->
     <!-- Youtube API -->
     <script src="https://apis.google.com/js/platform.js"></script>
-    
-    <!-- <script type="text/javascript"></script> -->
-
+    <!-- Font Awesome -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
     <!-- Bootstrap -->
     <script src="js/bootstrap.min.js"></script>
