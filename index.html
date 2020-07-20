@@ -13,10 +13,12 @@
   <body>
     <header>
       <div class="overlay"></div>
+      <!-- Banner Video -->
       <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
         <source src="img/headervideo.mp4" type="video/mp4">
       </video>
       <div class="container h-100">
+        <!-- Navbar -->
         <nav>
           <ul>
             <li><a href="#ytvideo">Recipes</a></li>
@@ -29,7 +31,6 @@
 
         <!-- Youtube Subscribe button -->
         <div id='subscribe'>
-          <script src="https://apis.google.com/js/platform.js"></script>
           <div class="g-ytsubscribe" data-channelid="UC5gmNs7t3Wmjs9nI8wc54-Q" data-layout="default" data-count="default"></div>
         </div>
       </div>
@@ -90,6 +91,7 @@
 
       <!-- Instagram feed -->
       <section id='instagram'>
+        <h2 class='title'></h2>
         <div class="col-12 col-md-12 col-lg-12">
           <div id="curator-feed-default-feed-layout">
             <a href="https://curator.io" target="_blank" class="crt-logo crt-tag">
@@ -137,6 +139,7 @@
           </div>
 
           <div id='submit'><button class="btn btn-primary" type="submit">Submit</button></div>
+          
         </form>
       </section>
     </main>
@@ -148,20 +151,25 @@
 
     <!-- Scroll up button -->
     <div class="scroll">
-      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <button onclick="topFunction()" id="myBtn" title="Go to top"> 
+        <i class="fas fa-chevron-up scrollup"></i>
+        <!-- <svg width="1.5rem" height="1.5rem" viewBox="0 0 16 16" class="bi bi-arrow-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5z"/>
+          <path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8 3.707 5.354 6.354a.5.5 0 1 1-.708-.708l3-3z"/>
+        </svg> -->
+      </button>
     </div>
 
     <!-- Scripts -->
-    <script type="text/javascript">
-      /* curator-feed-default-feed-layout */
-      (function(){
-      var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
-      i.src = "https://cdn.curator.io/published/ecf43557-6c9c-4f9d-b55b-a820a043eff0.js";
-      e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
-      })();
-      </script>
+    <!-- Youtube API -->
+    <script src="https://apis.google.com/js/platform.js"></script>
+    
+    <!-- <script type="text/javascript"></script> -->
 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
+    <!-- Bootstrap -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- Javascript -->
     <script src="js/script.js"></script>
     
   </body>
