@@ -17,7 +17,7 @@ header ul {
 /* navbar */
 nav {
     background-color: white;
-    color: rgba(184, 33, 38, 1);
+    color: rgba(191, 36, 49, 1);
     text-align: center;
     margin-top: 1rem;
 }
@@ -30,7 +30,7 @@ nav ul li {
 
 li a {
     text-decoration: none;
-    color: rgba(184, 33, 38, 1);
+    color: rgba(191, 36, 49, 1);
     font-family: 'Pacifico', cursive;
 }
 
@@ -111,7 +111,7 @@ p {
 }
 
 span a{
-    color: rgba(184, 33, 38, 1);
+    color: rgba(191, 36, 49, 1);
     font-weight: 500;
 }
 
@@ -155,7 +155,7 @@ form {
 /* Footer */
 footer {
     height: 4rem;
-    background-color: rgba(184, 33, 38, 1);
+    background-color: rgba(191, 36, 49, 1);
     margin-top: 5%;
     height: 15vh;
 }
@@ -176,8 +176,8 @@ footer {
     right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     background-color: white; /* Set a background color */
-    color: rgba(184, 33, 38, 1); /* Text color */
-    border-color: rgba(184, 33, 38, 1);
+    color: rgba(191, 36, 49, 1); /* Text color */
+    border-color: rgba(191, 36, 49, 1);
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 10px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
