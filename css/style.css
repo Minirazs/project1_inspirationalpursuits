@@ -96,6 +96,7 @@ header .overlay {
     text-align: center;
     color: rgba(255, 166, 0, 1);
     font-family: 'Pacifico', cursive;
+    letter-spacing: 2px;
 }
 
 p { 
