@@ -1,248 +1,248 @@
 html {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  background-color: white;
-}
-
-.container h-100 {
-    display: flex;
-    justify-content: center;
-}
-
-/* header ul overwrites the bootstrap default padding and make it zero */
-header ul {
-    padding-left: 0;
-}
-
-/* navbar */
-nav {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     background-color: white;
-    color: rgba(191, 36, 49, 1);
-    text-align: center;
-    margin-top: 1rem;
-}
-
-nav ul li {
-    display: inline;
-    font-size: 1.5rem;
-    margin: auto 3rem;
-}
-
-li a {
-    text-decoration: none;
-    color: rgba(191, 36, 49, 1);
-    font-family: 'Pacifico', cursive;
-}
-
-#logo {
-    width: 10rem;
-    display: block;
-    margin: auto;
-    margin-top: 3%;
-}
-
-/* youtube subscribe button on banner */
-#subscribe {
-    text-align: center;
-    margin-top: 3%;
-    z-index: 3;
-}
-
-/* Banner video*/
-header {
-    position: relative;
-    background-color:white;
-    height: 50vh;
-    min-height: 24rem;
-    width: 100%;
-    overflow: hidden;
-}
-  
-header video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: 0;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-}
-  
-header .container {
-    position: relative;
-    z-index: 2;
-}
-  
-header .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: white;
-    opacity: 0.3;
-    z-index: 1;
-}
-
-/* Styling done on text and headers */
-.title {
-    padding: 1rem;
-    margin-top: 2rem;
-    text-align: center;
-    color: rgba(255, 166, 0, 1);
-    font-family: 'Pacifico', cursive;
-    letter-spacing: 2px;
-}
-
-p { 
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.25rem;
-    text-align: center;
-}
-
-.chinese {
-    font-family: 'Ma Shan Zheng', cursive;
-    font-size: 1.5rem;
-    text-align: center;
-}
-
-span a{
-    color: rgba(191, 36, 49, 1);
-    font-weight: 500;
-}
-
-/* social media icons */
-.socialmedia {
-    display: flex;
-    justify-content: center;
-    margin-top: 3rem;
-    margin-bottom: 3.5rem;
-}
-
-.icon {
-    width: 70px;
-    margin: 0 3rem;
-}
-
-.icon:hover {
-    position: relative;
-    bottom: 2px;
-}
-
-/* Contact form */
-form {
-    font-family: 'Roboto', sans-serif;
-}
-
-#submit {
-    text-align: center;
-}
-
-.btn {
-    background-color:rgba(255, 166, 0, 1);
-    border-color: rgba(255, 166, 0, 1);
-}
-
-.btn:hover {
-    background-color:rgba(0, 86, 179, 1);
-    border-color: rgba(0, 86, 179, 1);
-}
-
-/* Footer */
-footer {
-    height: 4rem;
-    background-color: rgba(191, 36, 49, 1);
-    margin-top: 5%;
-    height: 15vh;
-}
-
-#copyright {
-    color: white;
-    letter-spacing: 1px;
-    display: flex;
-    justify-content: center;
-    padding: 2rem 0;
-}
-
-/* scroll up button */
-#myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    background-color: white; /* Set a background color */
-    color: rgba(191, 36, 49, 1); /* Text color */
-    border-color: rgba(191, 36, 49, 1);
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 10px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 1rem; /* font size */
-    font-family: 'Roboto', sans-serif;
   }
   
-#myBtn:hover {
-    background-color: rgba(0, 86, 179, 1); /* Add a background on hover */
-    color: white; /* Text color */
-    border-color: white;
-}
-
-.scrollup {
-    font-size: 1rem;
-}
-
-/* For mobile display */
-@media only screen and (max-width: 480px) {
-    nav ul li {
-        font-size: 1rem;
-        margin: auto 1rem;
-    }    
-    
-    #logo {
-        width: 9rem;
-    }
-    header {
-        background: url('/img/crackered_crumbled_seabass.jpg') white no-repeat center center scroll;
-        min-height: 16rem;
-    }
-    header video {
-        display: none;
-    }
-
-    #subscribe {
-        text-align: center;
-        margin-top: 5%;
-    }
-
-    .icon {
-        width: 50px;
-        margin: 0 1rem;
-    }
-
-    #instagram {
-        margin: 0 1rem;
-    }
-
-    .btn {
-        margin-bottom: 1rem;
-    }
-
-    #myBtn {
-        bottom: 20px; /* Place the button at the bottom of the page */
-        right: 40px; /* Place the button 30px from the right */
-        padding: 8px; /* Some padding */
-        font-size: 0.8rem; /* font size */
-      }    
-
-}
-
-/* For tablet display */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-
-}
+  .container h-100 {
+      display: flex;
+      justify-content: center;
+  }
   
+  /* header ul overwrites the bootstrap default padding and make it zero */
+  header ul {
+      padding-left: 0;
+  }
+  
+  /* navbar */
+  nav {
+      background-color: white;
+      color: rgba(191, 36, 49, 1);
+      text-align: center;
+      margin-top: 1rem;
+  }
+  
+  nav ul li {
+      display: inline;
+      font-size: 1.5rem;
+      margin: auto 3rem;
+  }
+  
+  li a {
+      text-decoration: none;
+      color: rgba(191, 36, 49, 1);
+      font-family: 'Pacifico', cursive;
+  }
+  
+  #logo {
+      width: 10rem;
+      display: block;
+      margin: auto;
+      margin-top: 3%;
+  }
+  
+  /* youtube subscribe button on banner */
+  #subscribe {
+      text-align: center;
+      margin-top: 3%;
+      z-index: 3;
+  }
+  
+  /* Banner video*/
+  header {
+      position: relative;
+      background-color:white;
+      height: 50vh;
+      min-height: 24rem;
+      width: 100%;
+      overflow: hidden;
+  }
+    
+  header video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: 0;
+      -ms-transform: translateX(-50%) translateY(-50%);
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+  }
+    
+  header .container {
+      position: relative;
+      z-index: 2;
+  }
+    
+  header .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: white;
+      opacity: 0.3;
+      z-index: 1;
+  }
+  
+  /* Styling done on text and headers */
+  .title {
+      padding: 1rem;
+      margin-top: 2rem;
+      text-align: center;
+      color: rgba(255, 166, 0, 1);
+      font-family: 'Pacifico', cursive;
+      letter-spacing: 2px;
+  }
+  
+  p { 
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.25rem;
+      text-align: center;
+  }
+  
+  .chinese {
+      font-family: 'Ma Shan Zheng', cursive;
+      font-size: 1.5rem;
+      text-align: center;
+  }
+  
+  span a{
+      color: rgba(191, 36, 49, 1);
+      font-weight: 500;
+  }
+  
+  /* social media icons */
+  .socialmedia {
+      display: flex;
+      justify-content: center;
+      margin-top: 3rem;
+      margin-bottom: 3.5rem;
+  }
+  
+  .icon {
+      width: 70px;
+      margin: 0 3rem;
+  }
+  
+  .icon:hover {
+      position: relative;
+      bottom: 2px;
+  }
+  
+  /* Contact form */
+  form {
+      font-family: 'Roboto', sans-serif;
+  }
+  
+  #submit {
+      text-align: center;
+  }
+  
+  .btn {
+      background-color:rgba(255, 166, 0, 1);
+      border-color: rgba(255, 166, 0, 1);
+  }
+  
+  .btn:hover {
+      background-color:rgba(0, 86, 179, 1);
+      border-color: rgba(0, 86, 179, 1);
+  }
+  
+  /* Footer */
+  footer {
+      height: 4rem;
+      background-color: rgba(191, 36, 49, 1);
+      margin-top: 5%;
+      height: 15vh;
+  }
+  
+  #copyright {
+      color: white;
+      letter-spacing: 1px;
+      display: flex;
+      justify-content: center;
+      padding: 2rem 0;
+  }
+  
+  /* scroll up button */
+  #myBtn {
+      display: none; /* Hidden by default */
+      position: fixed; /* Fixed/sticky position */
+      bottom: 20px; /* Place the button at the bottom of the page */
+      right: 30px; /* Place the button 30px from the right */
+      z-index: 99; /* Make sure it does not overlap */
+      background-color: white; /* Set a background color */
+      color: rgba(191, 36, 49, 1); /* Text color */
+      border-color: rgba(191, 36, 49, 1);
+      cursor: pointer; /* Add a mouse pointer on hover */
+      padding: 10px; /* Some padding */
+      border-radius: 10px; /* Rounded corners */
+      font-size: 1rem; /* font size */
+      font-family: 'Roboto', sans-serif;
+    }
+    
+  #myBtn:hover {
+      background-color: rgba(0, 86, 179, 1); /* Add a background on hover */
+      color: white; /* Text color */
+      border-color: white;
+  }
+  
+  .scrollup {
+      font-size: 1rem;
+  }
+  
+  /* For mobile display */
+  @media only screen and (max-width: 480px) {
+      nav ul li {
+          font-size: 1rem;
+          margin: auto 1rem;
+      }    
+      
+      #logo {
+          width: 9rem;
+      }
+      header {
+          background: url('/img/crackered_crumbled_seabass.jpg') white no-repeat center center scroll;
+          min-height: 16rem;
+      }
+      header video {
+          display: none;
+      }
+  
+      #subscribe {
+          text-align: center;
+          margin-top: 5%;
+      }
+  
+      .icon {
+          width: 50px;
+          margin: 0 1rem;
+      }
+  
+      #instagram {
+          margin: 0 1rem;
+      }
+  
+      .btn {
+          margin-bottom: 1rem;
+      }
+  
+      #myBtn {
+          bottom: 20px; /* Place the button at the bottom of the page */
+          right: 40px; /* Place the button 30px from the right */
+          padding: 8px; /* Some padding */
+          font-size: 0.8rem; /* font size */
+        }    
+  
+  }
+  
+  /* For tablet display */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  
+  }
+    
