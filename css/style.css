@@ -34,6 +34,11 @@ html {
       font-family: 'Pacifico', cursive;
   }
   
+  a:hover {
+      color: rgba(255, 166, 0, 1);
+      text-decoration: underline;
+  }
+  
   #logo {
       width: 10rem;
       display: block;
@@ -90,6 +95,12 @@ html {
   }
   
   /* Styling done on text and headers */
+  h3 {
+      font-family: 'Pacifico', cursive;
+      color: white;
+      text-shadow: 1px 1px 2px #000000;
+  }
+  
   .title {
       padding: 1rem;
       margin-top: 2rem;
@@ -110,10 +121,24 @@ html {
       font-size: 1.5rem;
       text-align: center;
   }
+
+  /* Button in Recipe section */
+  span { 
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 10px;
+  }
   
-  span a{
-      color: rgba(191, 36, 49, 1);
-      font-weight: 500;
+  #visit {
+      text-align: center;
+      margin-top: 4%;
+      margin-bottom: 5%;
+  }
+  
+  #visit a {
+      color: white;
+      text-decoration: none;
   }
   
   /* social media icons */
@@ -149,8 +174,24 @@ html {
   }
   
   .btn:hover {
-      background-color:rgba(0, 86, 179, 1);
-      border-color: rgba(0, 86, 179, 1);
+      background-color:rgba(191, 36, 49, 1);
+      border-color: rgba(191, 36, 49, 1);
+  }
+  
+  .btn:active {
+      background-color:rgba(191, 36, 49, 1);
+      border-color: rgba(191, 36, 49, 1);
+  }
+  
+  .btn:focus {
+      background-color:rgba(191, 36, 49, 1);
+      border-color: rgba(191, 36, 49, 1);
+  }
+  
+  /* to overwrite the default colors in button in bootstrap css */
+  .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+      background-color:rgba(191, 36, 49, 1);
+      border-color: rgba(191, 36, 49, 1);
   }
   
   /* Footer */
@@ -187,7 +228,7 @@ html {
     }
     
   #myBtn:hover {
-      background-color: rgba(0, 86, 179, 1); /* Add a background on hover */
+      background-color: rgba(255, 166, 0, 1); /* Add a background on hover */
       color: white; /* Text color */
       border-color: white;
   }
@@ -244,5 +285,4 @@ html {
   /* For tablet display */
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
   
-  }
-    
+  }  
