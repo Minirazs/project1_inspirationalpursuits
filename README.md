@@ -6,7 +6,7 @@ This website and its related YouTube Channel serve as online assets where we hop
 
 All food-related content and media such as videos and photographs on this website and our YouTube Channel are uniquely created by us. The website is to promote the brand. It also shows our updates via social media feed, the popular and latest video recipe links, and provides an avenue for collaboration via the contact box.
 
-The practical ways of measuring the outreach of this project include an increase in social media followers e.g. YouTube subscribers, an increase in video viewership (in minutes), an increase in webpage visitors, and an increase in interactions of social media posts.
+The practical ways of measuring the outreach of this project include an increase in social media followers e.g. YouTube subscribers, an increase in video viewership (in minutes), an increase in webpage visitors, and an increase in interactions of social media posts. These data and insights can be tracked and obtained from the dashboard of the brand’s YouTube channel, Facebook page, and Instagram business account. Analytics tools such as Google Analytics can be used on the website.  
 
 ## UX
 
@@ -47,15 +47,15 @@ Thirdly, under the Contact Us section, it has a contact form that allows the use
 - Social media icons in About Us section – the user can view the respective social media page (Facebook, YouTube, Instagram) in a new tab.
 - Embedded Instagram feed in the About Us section – the user can view the brand&#39;s posts in the carousel. The carousel automatically switches the posts every few seconds. Once a post is clicked on, it will expand for an enlarged view. It is also linked to its original post and will open in a new tab.
 - Contact form – the user can send a message, when valid fields are filled, to the brand&#39;s administrator.
-- All the links and images – when hovered over, the links appear in orange. When the cursor is stopped and hovered over the object for a few seconds, text (in the title) appears to describe it.
+- All the links and images – when hovered over, the links appear in orange. When the cursor is stopped and hovered over the object for a few seconds, text (in the title) appears to describe it. This aids in the site's search engine optimisation.
 - Scroll-up button – once clicked, the site will bring the user back to the top of the page.
 - Mobile responsive – when device and screen size changes, the elements in the site change to optimize the user&#39;s viewing experience.
 
 ### Features Left to Implement &amp; Future Plans
 
 - CSS styling - Animate the logo in the banner and the other objects upon scrolling
-- Having a database to filter and search for recipes
-- Sharing personal recipes of the user to the site or even personal photos to showcase his results in cooking
+- Having a database to filter and search for recipes, with recipes arranged in a template showing steps, ingredients and an embedded video.
+- Sharing personal recipes of the user to the site using a template form or even personal photos to showcase his results in cooking
 - Having an e-commerce platform for the purchase of pre-order food items made by Grandpa Chef
 - Automatic sending of an email to the user as an acknowledgment of message successfully sent to the administrator
 
@@ -134,7 +134,7 @@ If you want to clone the files, you can click on the green &#39;Code&#39; button
 
 ## Tools &amp; Tech used
 
-I am thankful for the developers and tech creators for sharing freely their code and tools that are used in this site creation. They are listed in the Technologies section above. 🙌
+I am thankful for the developers and tech creators for sharing freely their code and tools that are used in this site creation. They are listed in the Technologies section above. 🙌 
 
 ## Acknowledgments
 I received inspiration for this project from my dad, Grandpa Chef, and my son! 😃
