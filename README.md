@@ -80,6 +80,8 @@ Thirdly, under the Contact Us section, it has a contact form that allows the use
   - To minify the CSS code. Minified CSS is used to reduce file size.
 - [Word to Markdown converter](https://word2md.com/)
   - To convert word doc to Markdown for use in readme
+- [Scroll Back To Top Button](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp)
+  - Used the code on the scroll up button of the site
 - [Google Font](https://fonts.google.com/)
   - Fonts used – Roboto, Pacifico, Ma Shan Zheng
 - [Visual Studio Code (VSC)](https://code.visualstudio.com/) and its extensions like Live Server and Prettier
@@ -138,4 +140,4 @@ I am thankful for the developers and tech creators for sharing freely their code
 I received inspiration for this project from my dad, Grandpa Chef, and my son! 😃
 
 ## Content
-All the videos, photographs, and unique recipes shown are original content created by Grandpa Chef &amp; myself. All rights reserved for our content. 🤩
+All the videos, photographs, and unique recipes shown are original content created by Grandpa Chef &amp; myself. Copyrights belong to Chef & Grandson. 🤩
